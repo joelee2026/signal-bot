@@ -19,10 +19,10 @@ from telegram import Bot
 # ─────────────────────────────────────────
 #  CONFIG — fill these in
 # ─────────────────────────────────────────
-API_ID       = 123456               # from https://my.telegram.org
-API_HASH     = "your_api_hash"      # from https://my.telegram.org
-BOT_TOKEN    = "your_bot_token"     # from @BotFather
-YOUR_CHAT_ID = 123456789            # your chat ID — get from @userinfobot
+API_ID       = 32675268               # from https://my.telegram.org
+API_HASH     = "9476f11f0ce645fe2fc90ee4e3032dff"      # from https://my.telegram.org
+BOT_TOKEN    = "8729447892:AAEYNqfMoaM_dZ-R0LyuXKQG-2fQJWG_iO4"     # from @BotFather
+YOUR_CHAT_ID = 1077381439            # your chat ID — get from @userinfobot
 
 CHANNEL_1 = "@NinaGoldCircle"
 CHANNEL_2 = "@Goldhunterworldfx"
