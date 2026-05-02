@@ -87,7 +87,9 @@ def find_match(direction: str, other_channel: str):
 
 
 # ── Telegram clients ──────────────────────────────────────────────────────────
-client     = TelegramClient("session_signal_watcher", API_ID, API_HASH)
+from telethon.sessions import StringSession
+SESSION = "1BVtsOL8BuxUxnVMSaHDNyi7TL2VcKqq93sp2vrc6zabtrMVIkTneRJboalmfpuze-OTw00MGuS3oph1U1MdBbuS8raQhUReItEknXO3DSFQ0Rkq0RlGyJwGEhNaG650a-2wo9OuNSUOYdEyYXucOtnMZkoq8DN432vJjhEwd51w3qfPlD8y_PbIyYAAZaazznV91o-prDu8t7nIbeeWfs8msJTEw-4Ge1rj8scvDHIBd942sf4js8nF2I5FP1uSMNyKvax-x2UmO-QOg3itflFWQjFdkABmYrUJQH5hN8sEZwxa-9xtECYr4vDbs8-RYS0Gdq8csmLwoN6Fj65bvEEWZcLsK_uU="
+client = TelegramClient(StringSession(SESSION), API_ID, API_HASH)
 notify_bot = Bot(token=BOT_TOKEN)
 
 
